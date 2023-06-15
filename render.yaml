@@ -1,4 +1,4 @@
 services:
   - name: my-app
-    buildCommand: docker build -t <DOCKERHUB_USERNAME>/my-app .
-    startCommand: docker run -d -p 80:80 <DOCKERHUB_USERNAME>/my-app
+    buildCommand: docker build -t 4ndrelu1s/my-app .
+    startCommand: docker run -d -p 80:80 andrelu1s/my-app
