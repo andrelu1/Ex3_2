@@ -18,7 +18,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: <DOCKERHUB_USERNAME>/ex3_2:latest
+          tags: 4ndrelu1s/ex3_2:latest
 
       - name: Deploy to Render.com
         uses: renderhq/github-action@1.3.0
