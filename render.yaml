@@ -1,7 +1,4 @@
 services:
-  - name: app32
-    image: 4ndrelu1/ex3_2:latest
-    plan: starter
-    env:
-      - key: MY_ENV_VAR
-        value: my-value
+  - name: my-app
+    buildCommand: docker build -t <DOCKERHUB_USERNAME>/my-app .
+    startCommand: docker run -d -p 80:80 <DOCKERHUB_USERNAME>/my-app
