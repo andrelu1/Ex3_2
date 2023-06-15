@@ -1,7 +1,0 @@
-services:
-  - name: my-app
-    image: <DOCKERHUB_USERNAME>/ex3_3:latest
-    plan: starter
-    env:
-      - key: MY_ENV_VAR
-        value: my-value
