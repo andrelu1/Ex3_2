@@ -1,6 +1,6 @@
 services:
-  - name: my-app
-    image: <DOCKERHUB_USERNAME>/ex3_3:latest
+  - name: app32
+    image: 4ndrelu1/ex3_2:latest
     plan: starter
     env:
       - key: MY_ENV_VAR
